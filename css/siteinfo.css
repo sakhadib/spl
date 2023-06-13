@@ -38,8 +38,11 @@
     padding: 20px;
     padding-top: 6px;
     padding-bottom: 6px;
-    border: 2px solid black;
+    /* border: 2px solid rgb(91, 91, 91); */
     border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)
 }
 
 .site-info-main-head{
@@ -50,25 +53,7 @@
 
 }
 
-.search input{
-    border: none;
-    background-color: rgb(212, 212, 212);
-    padding: 10px;
-    border-radius: 7px;
-    width: 350px;
-}
-.search button{
-    border: none;
-    background-color: rgb(212, 212, 212);
-    padding : 10px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-.search button:hover{
-    background-color: rgb(180, 180, 180);
-    transition: all 0.5s ease 0s;
-}
+
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {

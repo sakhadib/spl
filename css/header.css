@@ -80,3 +80,23 @@ li, a{
     margin: 4px;
     transition: all 0.5s ease 0s; 
 }
+
+.search input{
+    border: none;
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+    border-radius: 7px;
+    width: 350px;
+}
+.search button{
+    border: none;
+    background-color: rgb(212, 212, 212);
+    padding : 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.search button:hover{
+    background-color: rgb(180, 180, 180);
+    transition: all 0.5s ease 0s;
+}

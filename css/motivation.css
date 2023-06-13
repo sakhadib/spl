@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.motivation{
+    display: flex;
+    justify-content: center;
+    margin-top: -70px;
+    
+}
+
+.theorem{
+    height: 300px;
+    width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.mathematician{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.theorem-title{
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 00;
+    background-color: rgb(244, 244, 244);
+    color: rgb(33, 33, 33);
+    padding: 10px;
+    border-radius: 4px;
+    /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5); */
+}
+
+.theorem-body{
+    margin : 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: justify;
+    color: rgb(84, 84, 84);
+}
+
+.mian-image{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.mian-image img{
+    width: 280px;
+    height: 280px;
+    border-radius: 8px;
+}
+

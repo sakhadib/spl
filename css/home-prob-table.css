@@ -1,0 +1,74 @@
+.table_header{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 700;
+    align-items: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+th, td{
+    padding: 1rem;
+    margin: 2rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    /* border-bottom: 1px solid rgb(185, 185, 185); */
+}
+
+tr:hover{
+    background-color: rgb(240, 240, 240);
+    color: rgb(38, 38, 38);
+}
+
+
+th{
+    text-decoration: underline;
+}
+
+.prb-name{
+    min-width: 800px;
+}
+
+td a{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+}
+
+td a:hover{
+    text-decoration: underline;
+}
+
+.table_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.rating{
+    min-width: 70px;
+}
+
+.rating-txt{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding: 15px;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    border-radius: 10%;
+}
+
+
+
+.tx::before {
+    content: "x ";
+    font-size: 18px;
+}
+  
+
